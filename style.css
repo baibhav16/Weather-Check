@@ -96,3 +96,25 @@ body{
   margin-top: 10px;
   display: none;
 }
+@media only screen and (max-width: 600px) {
+  /* Your styles for small screens here */
+.card{
+  padding: 15px 15px;
+}
+  .search{
+    width: 80%;
+
+  }
+  .search input{
+    font-size: 14px;
+    height: 48px;
+
+  }
+  .search button{
+    width: 30px;
+    height:25px;
+  }
+  .search button image{
+width: 8px;
+  }
+}
